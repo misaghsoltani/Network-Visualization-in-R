@@ -2,6 +2,8 @@
 
 This repository is a course project that implements interactive network visualizations of character interactions. The data used is an Excel workbook containing two worksheets. It generates two network visualizations: a Force Directed Network and a Chord Diagram. These visualizations illustrate dialogue interactions between the primary characters.
 
+**See the live demo [here](https://misaghsoltani.github.io/Network-Visualization-in-R/).**
+
 ## Table of Contents
 
 - [Network Visualization in R](#network-visualization-in-r)
@@ -9,6 +11,7 @@ This repository is a course project that implements interactive network visualiz
   - [Project Overview](#project-overview)
   - [Files](#files)
   - [How to Run](#how-to-run)
+  - [Live Demo](#live-demo)
   - [Visualizations](#visualizations)
     - [Screenshot](#screenshot)
   - [R Packages](#r-packages)
@@ -39,6 +42,10 @@ install.packages(c("readxl", "dplyr", "networkD3", "htmltools", "RColorBrewer"))
 
 3. **Generate Visualizations**: Open `main.R` in RStudio or an R environment and run the script. It will first process the data in `interactions_data.xlsx` and then generate the HTML file `index.html` that contains the Force Directed Network and Chord Network visualizations.
 4. **View Output**: Open `index.html` in a web browser to interact with the visualizations.
+
+## Live Demo
+
+You can find a live demo [here](https://misaghsoltani.github.io/Network-Visualization-in-R/).
 
 ## Visualizations
 
