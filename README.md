@@ -26,7 +26,7 @@ This project aims to visually represent relationships between characters using t
 - **`interactions_data.xlsx`**: The input data file containing two sheets:
   - **Primary Characters** – List of characters.
   - **Conversational Lines** – Number of lines spoken between pairs of characters.
-- **`interactions_network.html`**: The generated HTML file containing the visualizations.
+- **`index.html`**: The generated HTML file containing the visualizations.
 
 ## How to Run
 
@@ -37,8 +37,8 @@ This project aims to visually represent relationships between characters using t
 install.packages(c("readxl", "dplyr", "networkD3", "htmltools", "RColorBrewer"))
 ```
 
-3. **Generate Visualizations**: Open `main.R` in RStudio or an R environment and run the script. It will first process the data in `interactions_data.xlsx` and then generate the HTML file `interactions_network.html` that contains the Force Directed Network and Chord Network visualizations.
-4. **View Output**: Open `interactions_network.html` in a web browser to interact with the visualizations.
+3. **Generate Visualizations**: Open `main.R` in RStudio or an R environment and run the script. It will first process the data in `interactions_data.xlsx` and then generate the HTML file `index.html` that contains the Force Directed Network and Chord Network visualizations.
+4. **View Output**: Open `index.html` in a web browser to interact with the visualizations.
 
 ## Visualizations
 

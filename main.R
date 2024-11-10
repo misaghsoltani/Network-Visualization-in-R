@@ -127,4 +127,4 @@ visualizations <- tagList(
 )
 
 # Save as a HTML file, please check the HTML output for the result
-htmltools::save_html(visualizations, "character_network.html")
+htmltools::save_html(visualizations, "index.html")
